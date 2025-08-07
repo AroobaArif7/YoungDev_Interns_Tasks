@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>University Website Design - Easy Tutorials</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome 6 (latest) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+  <!-- HEADER -->
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="image/logo.png" alt="Logo"></a>
+      
+      <!-- Fixed opening tag for nav-links -->
+      <div class="nav-links" id="navLinks">
+        <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+          
+  
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="About.html">ABOUT</a></li>
+          <li><a href="course.html">COURSE</a></li>
+          <li><a href="blog.html">BLOG</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+
+      <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>MORE ABOUT UOL</h1>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section class="about-us">
+    <div class="row">
+      <div class="about-col">
+          <h2>Vision</h2>
+  <p>
+    To be a globally recognized center of excellence in education and research, committed to producing skilled professionals and visionary leaders who drive societal progress and innovation.
+  </p>
+
+  <h2>Mission</h2>
+  <ul><br>
+    <li>To provide high-quality education aligned with international standards.</li>
+    <li>To foster a research-driven environment that addresses both national and global challenges.</li>
+    <li>To develop critical thinkers and professionals who contribute effectively to the socio-economic growth of Pakistan.</li>
+    <li>To promote diversity, inclusivity, and academic integrity in every aspect of university life.</li>
+              </ul>
+<br>
+  <h2>Academic Excellence</h2>
+  <p>
+    Lahore University is known for its robust academic programs, offering a variety of disciplines, including:
+  </p>
+  <ul>
+    <li><b>Natural Sciences</b> (Physics, Chemistry, Mathematics, Earth Sciences, etc.)</li>
+    <li><b>Social Sciences</b> (International Relations, Economics, Political Science, Sociology, etc.)</li>
+    <li><b>Biological Sciences</b> (Biotechnology, Microbiology, Environmental Sciences, etc.)</li>
+    <li><b>Management Sciences</b> (Business Administration, Public Administration, etc.)</li>
+  </ul>
+  <p>
+    Our faculty consists of highly qualified experts and researchers dedicated to delivering top-tier education and research opportunities.
+  </p>
+
+  <h2>Campus Life</h2>
+  <p>
+    Lahore University offers a vibrant and engaging campus life with modern classrooms, state-of-the-art laboratories, research centers, libraries, and diverse extracurricular activities. Students have access to various clubs, societies, and sports facilities to nurture leadership, creativity, and collaboration skills.
+  </p>
+
+  <h2>Why Choose Lahore University?</h2>
+              <p>
+  <ul>
+    <li>✔ One of the top-ranked universities in Pakistan</li>
+    <li>✔ Experienced and highly qualified faculty and researchers</li>
+    <li>✔ Advanced research and learning facilities</li>
+    <li>✔ Diverse, inclusive, and supportive student community</li>
+    <li>✔ Strong partnerships with industry and academia</li>
+    <li>✔ Prime location in Lahore, a city known for its cultural heritage and academic atmosphere</li>
+  </ul>
+              </p>
+      </div>
+      <div class="about-col">
+        <img src="image/banner%201%20-%20Shortcut.lnk" alt="About Us">
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <section class="footer">
+    <h4>About Us</h4>
+    <p>The World's Number One University<br>Get your Admissions now</p>
+    <div class="icons">
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-linkedin"></i>
+    </div>
+  </section>
+
+  <!-- SCRIPT -->
+  <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+      navLinks.style.right = "0";
+    }
+    function hideMenu() {
+      navLinks.style.right = "-200px";
+    }
+  </script>
+</body>
+</html>

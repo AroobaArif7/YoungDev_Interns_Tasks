@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>University Website Design - Easy Tutorials</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome 6 (latest) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+  <!-- HEADER -->
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="image/logo.png" alt="Logo"></a>
+      
+      <!-- Fixed opening tag for nav-links -->
+      <div class="nav-links" id="navLinks">
+        <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+          
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="About.html">ABOUT</a></li>
+          <li><a href="course.html">COURSE</a></li>
+          <li><a href="blog.html">BLOG</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+
+      <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>About Us</h1>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section class="about-us">
+    <div class="row">
+      <div class="about-col">
+        <h1>About</h1>
+          <p>
+  <b>Lahore University</b>, established in 1967, is one of Pakistan’s leading institutions of higher education, recognized nationally and internationally for its academic excellence, research contributions, and dedication to innovation. Located in the heart of <b>Lahore</b>, a vibrant and culturally rich city, Lahore University offers a dynamic learning environment with highly qualified faculty, modern research facilities, and a diverse student body.<br><br>
+
+  Ranked among the top universities in Pakistan and Asia, Lahore University offers a wide array of <b>undergraduate, graduate, and doctoral programs</b> across multiple disciplines, including <b>Natural Sciences, Social Sciences, Biological Sciences, and Management Sciences</b>. The university emphasizes critical thinking, creativity, and leadership, equipping students with the skills necessary to thrive in a competitive global landscape.<br><br>
+
+  With a strong focus on <b>academic rigor and innovative research</b>, Lahore University plays a key role in shaping the future of education and contributing to both national and international development.
+</p>
+        <a href="Explore.html" class="hero-btn red-btn">EXPLORE NOW</a>
+      </div>
+      <div class="about-col">
+        <img src="image/banner%202.jpg" alt="About Us">
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <section class="footer">
+    <h4>About Us</h4>
+    <p>Number One University in Private Sector<br>Get your Admissions now</p>
+    <div class="icons">
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-linkedin"></i>
+    </div>
+  </section>
+
+  <!-- SCRIPT -->
+  <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+      navLinks.style.right = "0";
+    }
+    function hideMenu() {
+      navLinks.style.right = "-200px";
+    }
+  </script>
+</body>
+</html>

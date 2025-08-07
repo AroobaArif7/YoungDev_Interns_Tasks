@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<!-- Header Section -->
+<section class="header">
+    <nav>
+        <a href="index.html"><img src="image/logo.png" alt="University Logo"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="About.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <div class="textbox">
+        <h1>RANKED NO.1 UNIVERSITY<BR>IN PRIVATE SECTOR</h1>
+        <p>The University of Lahore ranked 1st in Pakistan, 101–200 globally in THE Impact Rankings 2025</p>
+        <a href="visit.html" class="hero-btn">Visit Us To Know More</a>
+    </div>
+</section>
+
+<!-- Courses Section -->
+<section class="course">
+    <h1>Programs Offered</h1>
+    <p>Our diverse programs, industry-relevant curriculum, and continually trained faculty will encourage you to expand the limits of what you believe is possible.</p>
+    
+    <div class="row">
+        <div class="course-col">
+            <h3>Undergraduate</h3>
+            <p>Undergraduate programs offered by University of Lahore are as below:</p>
+            <a href="Admission.html" class="U-Programs" id="admission-btn">Explore Programmes</a>
+        </div>
+
+        <div class="course-col">
+            <h3>Postgraduate</h3>
+            <p>Postgraduate programs offered by University of Lahore are as below:</p>
+            <a href="post-grad.html" class="U-Programs">Explore Programmes</a>
+        </div>
+
+        <div class="course-col">
+            <h3>Professional Education</h3>
+            <p>Professional Education programs offered by University of Lahore are as below:</p>
+            <a href="prof-edu.html" class="U-Programs">Explore Programmes</a>
+        </div>
+    </div>
+
+    <div class="visit-us-box" id="admission-info" style="display: none;">
+        <h2>Admission Guide</h2>
+        <p><!-- Add your content here --></p>
+    </div>
+</section>
+
+<!-- Campus Section -->
+<section class="Campus">
+    <h1>Our Global Campus</h1>
+    <p>The University provides several facilities to staff and students, which include health, hostel, transport, library, sports and more.</p>
+    
+    <div class="row">
+        <div class="campus-col">
+            <img src="image/lahore%20-%20Shortcut.lnk"> <!-- FIX: Replace .lnk with actual image -->
+            <div class="layer"><h3>LAHORE</h3></div>
+        </div>
+        <div class="campus-col">
+            <img src="image/sargoda%20-%20Shortcut.lnk"> <!-- FIX -->
+            <div class="layer"><h3>SARGODHA</h3></div>
+        </div>
+        <div class="campus-col">
+            <img src="image/isl.jpeg" alt="Islamabad Campus">
+            <div class="layer"><h3>ISLAMABAD</h3></div>
+        </div>
+    </div>
+</section>
+
+<!-- Facilities Section -->
+<section class="Facilities">
+    <h1>Our Facilities</h1>
+    <p>Facilities include health, hostel, transport, library, sports, and more.</p>
+    <div class="row">
+        <div class="Facilities-col">
+            <img src="images/library.png"> <!-- FIX -->
+            <h3>World Class Library</h3>
+            <p>The university provides one of the largest libraries.</p>
+        </div>
+        <div class="Facilities-col">
+            <img src="images/basketball.png"> <!-- FIX -->
+            <h3>Largest Basketball Court</h3>
+            <p>State-of-the-art basketball courts are available.</p>
+        </div>
+        <div class="Facilities-col">
+            <img src="images/cafeteria.png"> <!-- FIX -->
+            <h3>Aesthetic Cafe</h3>
+            <p>Modern, cozy cafeterias for students and staff.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Testimonials -->
+<section class="testimonals">
+    <h1>What Our Students Say</h1>
+    <p>Hear from our students about their experiences.</p>
+    <div class="row">
+        <div class="testimonal-col">
+            <img src="image/student%201%20-%20Shortcut.lnk"> <!-- FIX -->
+            <div>
+                <p>Teachers inspire, encourage and motivate students to grow both academically and personally.</p>
+                <h3>Aina</h3>
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+            </div>
+        </div>
+        <div class="testimonal-col">
+            <img src="image/student%202%20-%20Shortcut.lnk"> <!-- FIX -->
+            <div>
+                <p>Helpful staff and teachers guided me toward academic success with constant feedback.</p>
+                <h3>Sarah</h3>
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Call To Action -->
+<section class="cta">
+    <h1>Enroll for various courses<br>From Anywhere in the World</h1>
+    <a href="contact.html" class="hero-btn">Contact Us</a>
+</section>
+
+<!-- Footer -->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Number One University in Private Sector<br>Get your admissions now</p>
+    <div class="icons">
+    <a href="https://www.facebook.com/uolpakistan/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+    <a href="https://www.instagram.com/uolpakistan/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+    <a href="https://twitter.com/uol_official" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+    <a href="https://www.linkedin.com/school/the-university-of-lahore/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+</div>
+
+</section>
+
+<!-- Scripts -->
+<script>
+    function showMenu() {
+        document.getElementById("navLinks").style.right = "0";
+    }
+
+    function hideMenu() {
+        document.getElementById("navLinks").style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
